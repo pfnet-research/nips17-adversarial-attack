@@ -16,6 +16,5 @@ MAX_EPSILON=$3
 
 python attack_non_targeted_multi_fcn.py \
        --input_dir="${INPUT_DIR}" --output_dir="${OUTPUT_DIR}" --max_perturbation="${MAX_EPSILON}" \
-       --resnet50_file='./ResNet-50-model.npz' \
        --incresv2_file="./ens_adv_inception_resnet_v2.ckpt" \
        --model_file="000030-1001-1416-resume3e-4-5000_model_multi_iter2000.npz"
