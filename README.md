@@ -4,7 +4,7 @@ This repository contains the submission of team 'iwiwi' for the non-targeted adv
 
 ## Overview
 
-Our approach is to produce adversarial examples by using fully-convolutional neural networks. The basic frameworks is same as the Adversarial Transformation Networks paper (https://arxiv.org/pdf/1703.09387.pdf), but we used a much larger FCN model and stronger computation power, together with several new ideas such as multi-target training, multi-task training, and gradient hints. For details, we are preparing a technical report that describes our approach.
+Our approach is to produce adversarial examples by using fully-convolutional neural networks. The basic framework is the same as that of the Adversarial Transformation Networks paper (https://arxiv.org/pdf/1703.09387.pdf), but we used a much larger FCN model and stronger computation power, together with several new ideas such as multi-target training, multi-task training, and gradient hints. For details, we are preparing a technical report that describes our approach.
 
 
 ## How to Run
@@ -15,7 +15,7 @@ Our approach is to produce adversarial examples by using fully-convolutional neu
 * Download Inception ResNet v2 model with ensemble adversarial training (which is used for gradient hints):
 	* Download from http://download.tensorflow.org/models/ens_adv_inception_resnet_v2_2017_08_18.tar.gz 
 	* Place it as `ens_adv_inception_resnet_v2.ckpt.{index, meta, data-00000-of-00001}`
-* Run using the following command.
+* Run the following commands.
 
 ```
 docker pull iwiwi/nips17-adversarial
