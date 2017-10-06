@@ -1,0 +1,6 @@
+{
+  "type": "attack",
+  "container": "iwiwi/nips17-adversarial",
+  "container_gpu": "iwiwi/nips17-adversarial",
+  "entry_point": "run_attack.sh"
+}
