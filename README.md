@@ -31,6 +31,10 @@ nvidia-docker run \
   ${MAX_PERTURBATION}
 ```
 
+## References
+
+* Shumeet Baluja, Ian Fischer. **Adversarial Transformation Networks: Learning to Generate Adversarial Examples.** *CoRR*, abs/1703.09387, 2017.
+
 ## License
 
 [MIT License](LICENSE)
