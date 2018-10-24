@@ -42,6 +42,7 @@ The following is the examples of our attack with MAX_PERTURBATION=16 (left: orig
 ## References
 
 * Shumeet Baluja, Ian Fischer. **Adversarial Transformation Networks: Learning to Generate Adversarial Examples.** *CoRR*, abs/1703.09387, 2017.
+* Alexey Kurakin, Ian J. Goodfellow, Samy Bengio, Yinpeng Dong, Fangzhou Liao, Ming Liang, Tianyu Pang, Jun Zhu, Xiaolin Hu, Cihang Xie, Jianyu Wang, Zhishuai Zhang, Zhou Ren, Alan L. Yuille, Sangxia Huang, Yao Zhao, Yuzhe Zhao, Zhonglin Han, Junjiajia Long, Yerkebulan Berdibekov, Takuya Akiba, Seiya Tokui, Motoki Abe. **Adversarial Attacks and Defences Competition.** *CoRR*, abs/1804.00097, 2018.
 
 
 ## License
